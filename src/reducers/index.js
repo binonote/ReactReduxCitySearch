@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import CurrentZip from './reducer-zipcode';
+import weatherReducer from './reducer_weather';
 
 const rootReducer = combineReducers({
-  zip: CurrentZip
+  weather: weatherReducer
 });
 
 export default rootReducer;
